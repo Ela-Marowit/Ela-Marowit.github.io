@@ -1,0 +1,127 @@
+.hobbies{
+    background:linear-gradient(rgb(170, 139, 144),darkgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;    
+}
+
+.hobbies__box{
+    display:flex;
+    background-color:rgb(175, 149, 154);
+    border: 1px solid black;
+
+
+}
+.hobbies__title{
+    font-size: 3rem;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+.hobbies__line{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+.hobbies__img img{
+    padding: 1vh 1vw; 
+    justify-content: center;
+    /* box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1); */
+    border-top-left-radius: 3vh;
+}
+.hobbies__name{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+
+.hobbies__box:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    /* background-color:rgb(202, 198, 198); */
+    border-radius: 3vh;
+}
+
+@media screen and (max-width:768px){
+    .hobbies{
+        padding-top: 9vh;
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+    }
+    .hobbies__title{
+        font-size: 3rem;
+        padding-bottom: 1vh;
+        text-align:start; 
+    }
+
+    .hobbies__line{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-items: center;  
+    
+    } 
+    
+    .hobbies__box{
+        width: 35vw;
+        height: 20vh;
+        border:solid;
+        border-top-left-radius:0;
+        margin-bottom: 2vh;
+        justify-content: center;
+        padding-bottom: 2vh;
+        
+    }
+
+    .hobbies__img img{
+        width: 16vw;
+        align-items: center; 
+        
+    }
+    .hobbies__name{
+        font-weight: bold;
+    }
+
+   
+}    
+
+@media screen and (max-width:820px){
+    .hobbies__line{
+        flex-wrap: wrap;
+        margin-bottom: 2vh;
+        
+    } 
+    .hobbies__box{
+        margin-bottom: 5vh;
+        display: flex;
+        
+    }
+    .hobbies__title{
+        font-weight: bold;
+        border-bottom: 2px solid black;
+        padding: 1vh;
+        margin-bottom: 5vh;
+    }    
+    .hobbies__img{
+        width: 20vw;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hobbies__name{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 5vh;
+        font-weight: bold;
+        padding: 0;
+        margin-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .hobbies__img img{
+        align-items: center;
+        justify-content: center;
+    }
+}    

@@ -1,0 +1,52 @@
+.about{
+    background-color: darkgray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container{
+    width: 70vw;
+    /* padding: 4vh 6vw 0vh 10vw; */
+    display: block;
+}
+.about__title{
+    font-size: 2rem;
+    padding: 2vh 2vw;
+}
+
+.about__paragraph{
+    font-size: 1.4rem;
+    padding: 1.5vh 4vw;
+}
+
+.fin__paragraph{
+    width: 60vw;
+    height: 25vh;
+    padding-left: 4vw;
+}
+
+@media screen and (max-width:480px){
+    .about{
+        /* display: flex; */
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+    .about__container{
+        width: 88vw;
+        padding-top: 9vh;
+        align-content: center;
+   }
+    .about__paragraph{
+        font-size: 1.3rem;
+        padding: 1vh 4vw;  
+    }    
+   .fin__paragraph{
+        display: none;
+      
+    }
+
+}    

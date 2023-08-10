@@ -1,0 +1,250 @@
+.mensaje-error{
+    color: rgb(107, 5, 5);
+}
+
+.formcontato{
+    background-image:url(../img/contacto/pngegg.png);
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    height: 100vh;
+    background-color: rgb(114, 114, 114);
+    width: 100vw;  
+    
+}
+.formcontato{
+    display: flex;
+    justify-content: space-around;
+}
+.formcontato__contacto{ 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    
+} 
+.formcontato__text{
+    opacity: 0.8;
+    display:flex; 
+    flex-direction: column;
+    width: 30vw;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3); 
+    text-align: center; 
+    align-items: center;
+    background-color:rgba(192, 162, 192, 0.3);
+}
+.formcontato__title{
+    font-size: 3rem;
+    text-align: center;
+}
+.formcontato__subtext{
+    font-size: 1.5rem;
+}
+.formcontato__form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formcontato__input{
+    width: 20vw;
+    padding: 1.5vh 1vw;
+    margin: 1.5vh 0;
+    outline-color: pink;
+}
+.formcontato__textarea{
+    margin: 1.5vh 0;
+    width: 22vw;
+    outline-color: pink;
+}
+.formcontato__enviar{
+    margin: 2vh 0;
+    padding: 1.5vh 0;
+    width: 22vw;
+}
+.contacto__iconos{
+    background-color: rgba(80, 78, 78, 0.4);
+    display: flex;
+    height: 50vh;
+    
+}
+.iconos__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+    height: 40vh;
+}
+
+.icono{
+    background-color:rgba(24, 23, 24, 0.3);
+    border-radius: 10px;
+    margin: 1vh 1vw ;
+}
+.fin{
+    width: 20vw;
+}
+.contenedor__email{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo__correo{
+    font-size: 1.8rem;
+}
+
+.correo{
+    font-size: 1.5rem;
+}
+.icono:hover{
+    box-shadow: 5px 0px 5px 4px rgba(151, 128, 139, 0.5);
+}
+
+.footer__rodape{
+    display: flex;
+    position:absolute;
+    transform: translate(0,92vh);
+    
+}
+.footer__titulo{
+    font-size: 1rem;
+    padding-bottom: 1vh;
+    color: rgb(179, 177, 177);
+   
+}
+.footer__year{
+    font-size: 1rem;
+    padding-left: 1vw;
+    text-align: center;
+    color: rgb(179, 177, 177);;
+}
+
+@media screen and (max-width:480px){
+    .formcontato{
+        width: 100vw;
+        height: 100vh; 
+    }
+    .formcontato__text{
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+    .formcontato__form{
+        width: 60vw;
+    }
+    .formcontato__input{
+        width: 60vw;
+    }
+    .formcontato__textarea{
+        width: 60vw;
+    }
+    .formcontato__enviar{
+        width: 60vw;
+    }
+    
+    .formcontato__contacto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos__rodape{
+        display: flex;
+        
+    }
+
+    .title__network{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:0 ;
+    }
+    .fin{
+        display: none;
+    }
+    .contenedor__email{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 1.5vh;
+    }
+    .correo{
+        font-size: 1.2rem;
+    }
+    .footer__rodape{
+        display: flex;
+        position:absolute;
+        transform: translate(0,95vh);
+        
+    }
+}  
+/* @media screen and (max-width:820px){ */
+@media only screen and (min-width: 480px) and (max-width: 820px){     
+    .formcontato{
+        width: 100vw;
+        height: 100vh; 
+    }
+    .formcontato__text{
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+    .formcontato__text{
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+    .formcontato__form{
+        width: 60vw;
+    }
+    .formcontato__input{
+        width: 60vw;
+    }
+    .formcontato__textarea{
+        width: 60vw;
+    }
+    .formcontato__enviar{
+        width: 60vw;
+    }
+    
+    .formcontato__contacto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos__rodape{
+        display: flex;
+        
+    }
+
+    .title__network{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:0 ;
+    }
+    .fin{
+        display: none;
+    }
+    .contenedor__email{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vh;
+    }
+    .correo{
+        font-size: 2rem;
+    }
+    .footer__rodape{
+        display: flex;
+        position:absolute;
+        transform: translate(0,95vh);
+        
+    }
+}
