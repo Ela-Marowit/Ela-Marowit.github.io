@@ -35,7 +35,7 @@
                 <!-- <nav id="menu__nav_list"> -->
                 <ul class="menu">
                     <!--#sobre-mi-->
-                    <li class="menu__list__item"><a class="menu__nav" href="index.html">Inicio</a></li>
+                    <li class="menu__list__item"><a class="menu__nav" href="#Inicio">Inicio</a></li>
                     <li class="menu__list__item"><a class="menu__nav" href="#sobre-mi">Sobre mi</a></li>
                     <li class="menu__list__item"><a class="menu__nav" href="#skills">Skills</a></li>
                     <li class="menu__list__item"><a class="menu__nav" href="#hobbies">Hobbies</a></li>
@@ -49,7 +49,7 @@
         </section>
 
         <!-- Sección del Header/Title/Hero  banner-->
-        <section class="title">
+        <section class="title" id="Inicio">
             <div class="title__div">
                 <img class="title__miFoto" src="../img/daniela.jpg" alt="daniela">
                 <div class="title__container">
@@ -66,16 +66,25 @@
 
                     <!-- Pon los enlaces de tus redes sociales favoritas -->
                     <ul class="title__network">
-                        <li class="title__network__item"><a href="" target="_blank"> <img width="48px"
-                                    src="../img/square-github.svg" alt="Github"> </a></li>
-                        <li class="title__network__item"><a
-                                href="https://www.linkedin.com/in/daniela-espinosa-langue-728320275/" target="_blank">
-                                <img width="48px" src="../img/linkedin.svg" alt="Linkedin"></a></li>
-                        <li class="title__network__item"><a href="https://www.instagram.com/marowidt/" target="_blank">
-                                <img width="48px" src="../img/square-instagram.svg" alt="Instagram"></a></li>
+                        <a href="https://github.com/Ela-Marowit" target="_blank">
+                            <li class="title__network__item">
+                                <img width="48px" src="../img/square-github.svg" alt="Github">
+                            </li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/daniela-espinosa-langue-728320275/" target="_blank">
+                            <li class="title__network__item">
+                                <img width="48px" src="../img/linkedin.svg" alt="Linkedin">
+                            </li>
+                        </a>
+                        <a href="https://www.instagram.com/marowidt/" target="_blank">
+                            <li class="title__network__item">
+                                <img width="48px" src="../img/square-instagram.svg" alt="Instagram">
+                            </li>
+                        </a>
                         <!--<li class="title__network__item"><a href="" target="_blank"> <img width="48px" height="54px"
                                     src="../img/file-solid.svg" alt="Currículum"></a></li>-->
                     </ul>
+                    
                 </div>
             </div>
         </section>
@@ -299,17 +308,45 @@
             <div class="experience__todo">
                 <h2 class="experience__section__title">Proyectos</h2>
                 <div class="experiencie__box">
-
+                    <!--Encriptador-->
                     <img class="experience__img" src="../img/experiencia/encriptador.jfif">
                     <div class="experience__info">
                         <h2 class="experience__title">Encriptador de texto</h2>
-                        <h3 class="experience__text">Challenge Alura Codificador </h3>
-                        <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <h3 class="experience__text">He creado un encriptador de texto que permite introducir un mensaje para cifrarlo y posteriormente descifrarlo utilizando herramientas de HTML, CSS y Javascript.</h3>
+                        <!-- <div class="experience__description">
+                             Pon el enlace del proyecto en Github o GithubPages 
                             <span class="experience__repo"><a class="experience_link" href="#"><button
                                         class="experiencia__botao--repo">Repositório</button></a></span>
-                        </div>
+                        </div> -->
                     </div>
+                </div>   
+
+                    <!--tienda de dulces-->
+                <div class="experiencie__box">    
+                    <img class="experience__img" src="img\experiencia\SugarCANDY.jpg">
+                    <div class="experience__info">
+                        <h2 class="experience__title">E-commerce</h2>
+                        <h3 class="experience__text">He creado un sitio web de comercio electrónico para una tienda de dulces, que cuenta con funcionalidades como la posibilidad de agregar y eliminar productos, así como de visualizar las especificaciones detalladas de cada artículo. Además, el desarrollo de esta página se llevó a cabo utilizando Node.js.</h3>
+                        <!-- <div class="experience__description">
+                            Pon el enlace del proyecto en Github o GithubPages 
+                            <span class="experience__repo"><a class="experience_link" href="#"><button
+                                        class="experiencia__botao--repo">Repositório</button></a></span>
+                        </div> -->
+                    </div>
+                </div>    
+                    <!--movies-->
+                <div class="experiencie__box">     
+                    <img class="experience__img" src="img\experiencia\Flix.jpeg">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Página de streaming</h2>
+                        <h3 class="experience__text">He desarrollado una página de streaming que permite la subida de películas en diferentes categorías. Además, se ha implementado la funcionalidad para eliminar las películas. Para el desarrollo de esta página, se utilizó el framework React. </h3>
+                        <!-- <div class="experience__description">
+                             Pon el enlace del proyecto en Github o GithubPages 
+                            <span class="experience__repo"><a class="experience_link" href="#"><button
+                                        class="experiencia__botao--repo">Repositório</button></a></span>
+                        </div> -->
+                    </div>
+                    
                 </div>
             </div>
         </section>

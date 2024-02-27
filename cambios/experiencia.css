@@ -1,13 +1,16 @@
 .experience{
     background-color: rgb(114, 114, 114);
     /* padding:5vh 10vw 10vh 10vw; */
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+.experience__todo{
+    padding-bottom: 1rem;
 }
 
 .experience__section__title{
@@ -17,10 +20,12 @@
 
 .experiencie__box{
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
     width: 70vw;
     padding: 2vh 2vw;
-    background-color:rgb(187, 178, 180);
-    border:5px dashed rgb(82, 81, 81);
+    background-color:rgba(187, 178, 180,0.5);
+    border:3px dashed rgb(82, 81, 81);
     justify-content: stretch;
 
 }
@@ -31,8 +36,8 @@
     border:2px solid black;
 }
 .experience__info{
-    background-color: rgba(190, 196, 201,0.7);
-    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+    /*background-color: rgba(190, 196, 201,0.7);*/
+    box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3);
     margin-left: 3vw;
     width:70vh;  
 }     
@@ -40,9 +45,9 @@
 .experience__title{
     font-size: 2rem;
     padding: 2vh 1.5vw;
-    border-bottom: 4px dashed rgb(114, 114, 114);
-    
+    border-bottom: 2px solid pink;
 }
+
 .experience__text{
     font-size: 1.5rem;
     padding: 2vh 1.5vw;
@@ -74,7 +79,7 @@
     .experience{
         background-color: rgb(114, 114, 114);
         width: 100vw;
-        height: 100vh;
+        height: max-content;
         display: block;
     
     }
