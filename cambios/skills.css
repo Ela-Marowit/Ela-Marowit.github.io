@@ -1,7 +1,7 @@
 .skills{
     background-color: rgb(170, 139, 144);
     /* padding:5vh 10vw 10vh 10vw; */
-    height: 100vh;
+    height: max-content;
     width: 100vw;
     display: flex;
     justify-content: center;
