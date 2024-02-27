@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: max-content;
 }
 .academic__title{
     font-size: 3rem;
@@ -62,7 +62,6 @@
     .academic{
         display: block;
         width: 100vw;
-        height: 100vh;
         padding-top: 5vh;
     }
 

@@ -2,7 +2,7 @@
     background-color: rgb(184, 177, 178);
     /* padding: 4vh 5vw 2vh 5vw; */
     display: flex;
-    height: 100vh;
+    height: max-content;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,6 @@
 @media screen and (max-width:480px){
     .title{
         width: 100vw;
-        height: 100vh;
         display: block;
     }
     .fondo{
@@ -94,7 +93,6 @@
 @media only screen and (min-width: 480px) and (max-width: 820px){     
     .title{
         width: 100vw;
-        height: 100vh;
         display: block;
     }
     .fondo{
