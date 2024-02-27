@@ -22,6 +22,11 @@
     justify-content: center;
 }
 
+.academic__courses__box a {
+    text-decoration: inherit ;
+    color: inherit;
+}
+
 .academic__courses__list{
     background-color: darkgrey;
     padding: 3vh;
@@ -89,3 +94,4 @@
     
     }
 }    
+

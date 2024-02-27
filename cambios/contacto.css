@@ -75,22 +75,26 @@
     height: 40vh;
 }
 
+.title__network a{
+    margin: 1vh 1vw;
+}
+
 .icono{
     background-color:rgba(24, 23, 24, 0.3);
     border-radius: 10px;
-    margin: 1vh 1vw ;
 }
 .fin{
     width: 20vw;
 }
 .contenedor__email{
     display: flex;
-    align-items:flex-end;
+    align-items:center;
     flex-direction: column;
     justify-content: center;
 }
 .titulo__correo{
     font-size: 1.8rem;
+    padding-bottom: 0.5rem;
 }
 
 .correo{
